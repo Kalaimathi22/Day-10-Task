@@ -1,0 +1,35 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f6f9;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.profile-card {
+  background-color: #ffffff;
+  border: 2px solid #4a90e2;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.profile-card h2 {
+  color: #4a90e2;
+}
+
+.skills-section {
+  margin-top: 20px;
+}
+
+.skill-badge {
+  display: inline-block;
+  background-color: #4a90e2;
+  color: white;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 14px;
+}

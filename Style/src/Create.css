@@ -1,0 +1,27 @@
+/* App.css */
+.app-container {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+  color: #555;
+}

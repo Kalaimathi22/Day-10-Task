@@ -1,0 +1,40 @@
+.team-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f4f6f9;
+}
+
+.section-header {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #4a90e2;
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.team-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 180px;
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.photo-placeholder img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #ccc;
+  margin-bottom: 15px;
+}

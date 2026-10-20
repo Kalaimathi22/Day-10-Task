@@ -1,0 +1,31 @@
+.card {
+  border: 2px solid #4a90e2;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  background-color: #f9f9f9;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #e6f0ff;
+}
+
+.card h2 {
+  color: #333;
+}
+
+.card button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #357ab8;
+}
